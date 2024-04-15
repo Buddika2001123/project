@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>House Plans</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div id="sideNav">
+            <nav>
+            <ul>  
+                <li><a href="index.html">Home</a></li>
+                <li><a href="features.html">Features</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="#footer">Contact Us</a></li>
+            </ul>
+            </nav>
+        </div>
+
+        <div id="menubtn">
+            <img src="images/menu.png" id="menu">
+        </div>
+
+        <script>
+            var menubtn =document.getElementById("menubtn")
+            var sideNav =document.getElementById("sideNav")
+            var menu =document.getElementById("menu")
+
+            sideNav.style.right = "-250px";
+
+            menubtn.onclick=function(){
+                if(sideNav.style.right=="-250px"){
+                    sideNav.style.right="0";
+                }
+                else{
+                    sideNav.style.right="-250px"
+                }
+            }
+
+
+        </script>
+    <section id="service-page">
+        <img src="images/logo.png" class="logo">
+        <div class="container">
+            <div class="service-wrapper">
+                <div class="service">
+                    <h1>Our Services<span></span></h1>
+                    <div class="service-cards">
+                        <div class="service-card">
+                            <img src="images/custom home.png" class="icon">
+                            <h2>Custom Home Design</h2>
+                            <p>Transform your vision into reality with our custom home design services. Whether you're building your dream home from scratch or renovating an existing space, our experienced team will work closely with you to create a personalized design that reflects your style, needs, and budget.</p>
+                        </div>
+
+                        <div class="service-card">
+                            <img src="images/interior.png" class="icon">
+                            <h2>Interior Design</h2>
+                            <p>Elevate your living spaces with our expert interior design services. Whether you're looking to refresh a single room or redesign your entire home, our talented designers will curate a cohesive and stylish interior that enhances comfort, functionality, and aesthetic appeal.</p>
+                        </div>
+
+                        <div class="service-card">
+                            <img src="images/3d.png" class="icon">
+                            <h2>3D Visualization</h2>
+                            <p>Experience your future home in stunning detail with our 3D visualization services. Using advanced rendering techniques, we create realistic digital models that allow you to explore your design from every angle, making informed decisions and visualizing the final result before construction begins.</p>
+                        </div>
+
+                        <div class="service-card">
+                            <img src="images/Renovation.png" class="icon">
+                            <h2>Renovation & Remodeling</h2>
+                            <p>Transform your existing space into the home of your dreams with our renovation and remodeling services. Whether you're updating a single room or completely overhauling your floor plan, our team will guide you through the process from concept to completion, delivering stunning results that exceed your expectations.</p>
+                        </div>
+
+                        <div class="service-card">
+                            <img src="images/landscape.png" class="icon">
+                            <h2>Landscape Design</h2>
+                            <p>Extend your living space outdoors with our professional landscape design services. From lush gardens and relaxing outdoor lounges to functional hardscapes and sustainable features, we design outdoor environments that seamlessly integrate with your home and lifestyle.</p>
+                        </div>
+
+                        <div class="service-card">
+                            <img src="images/project.png" class="icon">
+                            <h2>Project Management</h2>
+                            <p>Enjoy a stress-free building experience with our comprehensive project management services. From coordinating contractors and managing timelines to overseeing budgets and ensuring quality control, we handle every aspect of the construction process, so you can focus on turning your dream home into a reality.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+
+
+
+         <!--footer-->        
+         <section id="footer">
+            <img src="images/logo.png" class="footer-img">
+            <div class="title-text">
+                <p>Contact</p>
+                <h1>Visit Today</h1>
+            </div>
+
+            <div class="footer-row">
+                <div class="footer-left">
+                    <h1>Opening Hours</h1>
+                    <p><img src="images/pngwing.com.png" class="icon">  Monday To Friday - 9am to 10pm</p>
+                    <p><img src="images/pngwing.com.png" class="icon">  Saturday To Sunday - 8am to 12pm</p>
+
+                </div>
+                <div class="footer-right">
+                    <h1>Get In Touch</h1>
+                    <p>Rajarata University,Mihinthale  <img src="images/pngwing.com (6).png" class="icon"></p>
+                    <p>webdesign@gmail.com  <img src="images/pngwing.com (5).png" class="icon"></p>
+                    <p>+9470-2058956  <img src="images/pngwing.com (1).png" class="icon"></p>
+                    <p>011-5489632  <img src="images/pngwing.com (4).png" class="icon"></p>
+                </div>
+            </div>
+           
+            <div class="social-link">
+                <a href="https://web.facebook.com/?_rdc=1&_rdr"><img src="images/facebook.png" class="icon"></a>
+                <a href="https://www.instagram.com/"><img src="images/insta.png" class="icon"></a>
+                <a href="https://twitter.com/i/flow/login"><img src="images/twitter.png" class="icon"></a>
+                <a href="https://www.youtube.com/"><img src="images/youtube.png" class="icon"></a>
+                <p>Copyright © 2024 Rajarata University Of Sri Lanka,All rights reserved.</p>
+
+            </div>
+
+        </section>
+    </body>
+</html>

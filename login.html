@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>House Plans</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="sideNav">
+            <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="features.html">Features</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="#footer">Contact Us</a></li>
+            </ul>
+            </nav>
+        </div>
+
+        <div id="menubtn">
+            <img src="images/menu.png" id="menu">
+        </div>
+
+       
+       
+       
+       
+       <script>
+            var menubtn =document.getElementById("menubtn")
+            var sideNav =document.getElementById("sideNav")
+            var menu =document.getElementById("menu")
+
+            sideNav.style.right = "-250px";
+
+            menubtn.onclick=function(){
+                if(sideNav.style.right=="-250px"){
+                    sideNav.style.right="0";
+                }
+                else{
+                    sideNav.style.right="-250px"
+                }
+            }
+
+
+        </script>
+
+        <section id="login-id">
+            <img src="images/logo.png" class="logo">
+        <div class="login">
+            <form action="">
+                <h1>Login</h1>
+
+                <div class="input-box">
+                    <input type="text" placeholder="Username" required>
+                  
+                </div>
+
+                <div class="input-box">
+                    <input type="password" placeholder="Password" required>
+                    
+                </div>
+
+                <div class="remember-forgot">
+                    <label><input type="checkbox">Remember me</label>
+                    <a href="#">Forgot Password</a>
+                </div>
+                
+                <button type="submit" class="btn">Login</button>
+
+                <div class="register-link">
+                    <p>Don't have an account?
+                        <a href="#">Register</a>
+                    </p>
+
+                </div>
+            </form>
+        </div>
+        </section>
+         
+        
+        <!--footer-->        
+         <section id="footer">
+            <img src="images/logo.png" class="footer-img">
+            <div class="title-text">
+                <p>Contact</p>
+                <h1>Visit Today</h1>
+            </div>
+
+            <div class="footer-row">
+                <div class="footer-left">
+                    <h1>Opening Hours</h1>
+                    <p><img src="images/pngwing.com.png" class="icon">  Monday To Friday - 9am to 10pm</p>
+                    <p><img src="images/pngwing.com.png" class="icon">  Saturday To Sunday - 8am to 12pm</p>
+
+                </div>
+                <div class="footer-right">
+                    <h1>Get In Touch</h1>
+                    <p>Rajarata University,Mihinthale  <img src="images/pngwing.com (6).png" class="icon"></p>
+                    <p>webdesign@gmail.com  <img src="images/pngwing.com (5).png" class="icon"></p>
+                    <p>+9470-2058956  <img src="images/pngwing.com (1).png" class="icon"></p>
+                    <p>011-5489632  <img src="images/pngwing.com (4).png" class="icon"></p>
+                </div>
+            </div>
+           
+            <div class="social-link">
+                <a href="https://web.facebook.com/?_rdc=1&_rdr"><img src="images/facebook.png" class="icon"></a>
+                <a href="https://www.instagram.com/"><img src="images/insta.png" class="icon"></a>
+                <a href="https://twitter.com/i/flow/login"><img src="images/twitter.png" class="icon"></a>
+                <a href="https://www.youtube.com/"><img src="images/youtube.png" class="icon"></a>
+                <p>Copyright © 2024 Rajarata University Of Sri Lanka,All rights reserved.</p>
+
+            </div>
+
+        </section>
+    </body>
+</html>
